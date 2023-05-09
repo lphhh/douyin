@@ -28,7 +28,7 @@ func HTTPGet(uri string) ([]byte, error) {
 // HTTPPost post 请求
 func HTTPPost(uri string, data string) ([]byte, error) {
 	body := bytes.NewBuffer([]byte(data))
-	response, err := http.Post(uri, "", body)
+	response, err := http.Post(uri, "application/json; charset=utf-8", body)
 	if err != nil {
 		return nil, err
 	}
@@ -68,7 +68,7 @@ type MultipartFormField struct {
 	Filename  string
 }
 
-//PostFile 上传文件
+// PostFile 上传文件
 func PostFile(fieldname, filename, uri string) ([]byte, error) {
 	fields := []MultipartFormField{
 		{

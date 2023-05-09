@@ -6,6 +6,7 @@ import (
 	"github.com/amorist/douyin/open/credential"
 	"github.com/amorist/douyin/open/enterprise"
 	"github.com/amorist/douyin/open/image"
+	"github.com/amorist/douyin/open/mini"
 	"github.com/amorist/douyin/open/oauth"
 	"github.com/amorist/douyin/open/pay"
 	"github.com/amorist/douyin/open/poi"
@@ -14,12 +15,12 @@ import (
 	"github.com/amorist/douyin/open/video"
 )
 
-//API 抖音开放平台API
+// API 抖音开放平台API
 type API struct {
 	ctx *context.Context
 }
 
-//NewOpenAPI 实例抖音开放平台API
+// NewOpenAPI 实例抖音开放平台API
 func NewOpenAPI(cfg *config.Config) *API {
 	defaultAkHandle := credential.NewDefaultAccessToken(cfg.ClientKey, cfg.ClientSecret, credential.CacheKeyPrefix, cfg.Cache)
 	ctx := &context.Context{
@@ -56,6 +57,10 @@ func (api *API) GetClientToken() (string, error) {
 // GetOauth oauth2网页授权
 func (api *API) GetOauth() *oauth.Oauth {
 	return oauth.NewOauth(api.ctx)
+}
+
+func (api *API) GetMini() *mini.Mini {
+	return mini.NewMini(api.ctx)
 }
 
 // GetVideo 视频管理接口
