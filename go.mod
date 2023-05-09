@@ -1,4 +1,4 @@
-module github.com/lphhh/douyin
+module github.com/amorist/douyin
 
 go 1.14
 

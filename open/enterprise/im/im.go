@@ -1,6 +1,6 @@
 package im
 
-import "github.com/lphhh/douyin/open/context"
+import "github.com/amorist/douyin/open/context"
 
 // IM .
 type IM struct {

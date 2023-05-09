@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lphhh/douyin/open/cache"
-	"github.com/lphhh/douyin/util"
+	"github.com/amorist/douyin/open/cache"
+	"github.com/amorist/douyin/util"
 )
 
 const (

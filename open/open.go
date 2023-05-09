@@ -1,18 +1,18 @@
 package open
 
 import (
-	"github.com/lphhh/douyin/open/config"
-	"github.com/lphhh/douyin/open/context"
-	"github.com/lphhh/douyin/open/credential"
-	"github.com/lphhh/douyin/open/enterprise"
-	"github.com/lphhh/douyin/open/image"
-	"github.com/lphhh/douyin/open/mini"
-	"github.com/lphhh/douyin/open/oauth"
-	"github.com/lphhh/douyin/open/pay"
-	"github.com/lphhh/douyin/open/poi"
-	"github.com/lphhh/douyin/open/search"
-	"github.com/lphhh/douyin/open/user"
-	"github.com/lphhh/douyin/open/video"
+	"github.com/amorist/douyin/open/config"
+	"github.com/amorist/douyin/open/context"
+	"github.com/amorist/douyin/open/credential"
+	"github.com/amorist/douyin/open/enterprise"
+	"github.com/amorist/douyin/open/image"
+	"github.com/amorist/douyin/open/mini"
+	"github.com/amorist/douyin/open/oauth"
+	"github.com/amorist/douyin/open/pay"
+	"github.com/amorist/douyin/open/poi"
+	"github.com/amorist/douyin/open/search"
+	"github.com/amorist/douyin/open/user"
+	"github.com/amorist/douyin/open/video"
 )
 
 // API 抖音开放平台API

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/lphhh/douyin/open/config"
-	"github.com/lphhh/douyin/util"
+	"github.com/amorist/douyin/open/config"
+	"github.com/amorist/douyin/util"
 )
 
 func TestDouyin(t *testing.T) {

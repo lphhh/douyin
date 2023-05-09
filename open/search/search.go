@@ -1,6 +1,6 @@
 package search
 
-import "github.com/lphhh/douyin/open/context"
+import "github.com/amorist/douyin/open/context"
 
 // Search 搜索管理
 type Search struct {
