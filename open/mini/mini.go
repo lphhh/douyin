@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/amorist/douyin/open/context"
-	"github.com/amorist/douyin/open/credential"
-	"github.com/amorist/douyin/util"
+	"github.com/lphhh/douyin/open/context"
+	"github.com/lphhh/douyin/open/credential"
+	"github.com/lphhh/douyin/util"
 )
 
 const (

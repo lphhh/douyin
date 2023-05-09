@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/amorist/douyin/open/context"
-	"github.com/amorist/douyin/util"
+	"github.com/lphhh/douyin/open/context"
+	"github.com/lphhh/douyin/util"
 )
 
 // LeadsLevelType 用户状态 .
